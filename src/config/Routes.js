@@ -1,5 +1,6 @@
 import React from "react"
 import {Route, Switch} from 'react-router-dom'
+import Ergebis from "../components/ergebnis/Ergebnis"
 import Fragen from "../components/fragen/Fragen"
 import Home from "../components/Home/Home"
 import Personalisieren from "../components/personalisieren/Personalisieren"
@@ -19,6 +20,10 @@ const Routes = () => {
             <Route
                 path='/fragen'
                 component={Fragen}
+            />
+            <Route
+                path='/ergebnis'
+                component={Ergebis}
             />
             <Route
                 path='/'

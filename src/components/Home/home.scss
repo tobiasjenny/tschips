@@ -1,0 +1,142 @@
+.section-one {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5vw;
+}
+
+.title-one {
+    color: #294542;
+    font-size: 5vh;
+    width: 60vw;
+}
+
+.content-one {
+    color: #999084;
+    font-size: 3vh;
+    width: 35vw;
+    margin-top: 3vh;
+}
+
+.section-two {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    background-color: #294542;
+}
+
+.product-photo {
+    width: 50vw;
+    background-color: #294542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+img {
+    height: 100%;
+    background-color: #294542;
+}
+
+.section-two-content {
+   width: 35vw;
+   padding:  5vh 3vw;
+   background-color: #294542;
+}
+
+.title-two {
+    color: #ffffff;
+    font-size: 4vh;
+    background-color: #294542;
+}
+
+.subtitle-two {
+    color: #ffffff;
+    font-size: 2.5vh;
+    margin: 3vh 0 ;
+    background-color: #294542;
+}
+
+.content-two {
+    color: #A29B8E;
+    font-size: 2vh;
+    background-color: #294542;
+}
+
+.persoBtn {
+    margin-top: 2vh;
+    height: 4vh;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #294542;
+}
+
+.section-three {
+    padding: 5vw;
+}
+
+.content-three-left {
+    width: 90vw;
+    margin-bottom: 5vh;
+}
+
+.content-three-right {
+    width: 90vw;
+    text-align: end;
+    margin-bottom: 5vh;
+}
+
+.content-three-left p {
+    width: 45vw;
+}
+
+.content-three-right p {
+    width: 45vw;
+    float: inline-end;
+    margin-left: 45vw;
+}
+
+.section-four {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four-content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+.title-four {
+    color: #000000;
+    font-size: 3vh;
+    width: 60vw;
+    background-color: #ffffff;
+    margin-bottom: 3vh;
+}
+
+.content-four {
+    background-color: #ffffff;
+    width: 60vw;
+    font-size: 2vh;
+    color: #000000;
+}
